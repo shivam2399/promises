@@ -59,7 +59,7 @@ function updateLastUserActivityTime() {
             user.lastActivityTime = new Date().getTime();
             resolve(user.lastActivityTime);
         }, 1000)
-    }).catch((err) => console.log(err));
+    }).catch((err) => console.log(err))
 }
 
 
